@@ -8,16 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		11BCB0D3858E021CF957ADF9 /* Pods_SJFeedBack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C17AC504012632944B5D4EC /* Pods_SJFeedBack.framework */; };
+		3B144A441EFA09C7000F53B6 /* UIView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B144A431EFA09C7000F53B6 /* UIView+extension.swift */; };
 		3B1B74A81EF8044A0039E7F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1B74A71EF8044A0039E7F3 /* AppDelegate.swift */; };
 		3B1B74AA1EF8044A0039E7F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1B74A91EF8044A0039E7F3 /* ViewController.swift */; };
 		3B1B74AD1EF8044A0039E7F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B1B74AB1EF8044A0039E7F3 /* Main.storyboard */; };
 		3B1B74AF1EF8044A0039E7F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B1B74AE1EF8044A0039E7F3 /* Assets.xcassets */; };
 		3B1B74B21EF8044A0039E7F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B1B74B01EF8044A0039E7F3 /* LaunchScreen.storyboard */; };
 		3B1B74BA1EF804830039E7F3 /* SJFeedBackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1B74B91EF804830039E7F3 /* SJFeedBackViewController.swift */; };
+		3B1B74BD1EF808890039E7F3 /* SJTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1B74BC1EF808890039E7F3 /* SJTextView.swift */; };
+		3B20B9531EFFF10C0013F612 /* PhotoButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B20B9521EFFF10C0013F612 /* PhotoButton.swift */; };
+		3B20B9551EFFF2600013F612 /* String+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B20B9541EFFF2600013F612 /* String+extension.swift */; };
+		3B20B9571EFFF2BF0013F612 /* UIAlertController+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B20B9561EFFF2BF0013F612 /* UIAlertController+extension.swift */; };
+		3B20B9591EFFF49D0013F612 /* SelectImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B20B9581EFFF49D0013F612 /* SelectImageView.swift */; };
+		3B20B95B1EFFF5210013F612 /* UIImage+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B20B95A1EFFF5210013F612 /* UIImage+extension.swift */; };
+		3BCE36F31EF8C26C003D4CF5 /* SJImagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCE36F21EF8C26C003D4CF5 /* SJImagesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0C17AC504012632944B5D4EC /* Pods_SJFeedBack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SJFeedBack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B144A431EFA09C7000F53B6 /* UIView+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+extension.swift"; sourceTree = "<group>"; };
 		3B1B74A41EF8044A0039E7F3 /* SJFeedBack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SJFeedBack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B1B74A71EF8044A0039E7F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B1B74A91EF8044A0039E7F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,6 +35,13 @@
 		3B1B74B11EF8044A0039E7F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B1B74B31EF8044A0039E7F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B1B74B91EF804830039E7F3 /* SJFeedBackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJFeedBackViewController.swift; sourceTree = "<group>"; };
+		3B1B74BC1EF808890039E7F3 /* SJTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJTextView.swift; sourceTree = "<group>"; };
+		3B20B9521EFFF10C0013F612 /* PhotoButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoButton.swift; sourceTree = "<group>"; };
+		3B20B9541EFFF2600013F612 /* String+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+extension.swift"; sourceTree = "<group>"; };
+		3B20B9561EFFF2BF0013F612 /* UIAlertController+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlertController+extension.swift"; sourceTree = "<group>"; };
+		3B20B9581EFFF49D0013F612 /* SelectImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectImageView.swift; sourceTree = "<group>"; };
+		3B20B95A1EFFF5210013F612 /* UIImage+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+extension.swift"; sourceTree = "<group>"; };
+		3BCE36F21EF8C26C003D4CF5 /* SJImagesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJImagesView.swift; sourceTree = "<group>"; };
 		68E18AFF010F4BA743268DE2 /* Pods-SJFeedBack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SJFeedBack.release.xcconfig"; path = "Pods/Target Support Files/Pods-SJFeedBack/Pods-SJFeedBack.release.xcconfig"; sourceTree = "<group>"; };
 		7D2C63C022A642612B6C47F5 /* Pods-SJFeedBack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SJFeedBack.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SJFeedBack/Pods-SJFeedBack.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -42,6 +58,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B144A421EFA09A6000F53B6 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3B144A431EFA09C7000F53B6 /* UIView+extension.swift */,
+				3B20B9541EFFF2600013F612 /* String+extension.swift */,
+				3B20B95A1EFFF5210013F612 /* UIImage+extension.swift */,
+				3B20B9561EFFF2BF0013F612 /* UIAlertController+extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		3B1B749B1EF8044A0039E7F3 = {
 			isa = PBXGroup;
 			children = (
@@ -66,12 +93,25 @@
 				3B1B74A71EF8044A0039E7F3 /* AppDelegate.swift */,
 				3B1B74A91EF8044A0039E7F3 /* ViewController.swift */,
 				3B1B74B91EF804830039E7F3 /* SJFeedBackViewController.swift */,
+				3B1B74BB1EF8086E0039E7F3 /* View */,
+				3B144A421EFA09A6000F53B6 /* Extension */,
 				3B1B74AB1EF8044A0039E7F3 /* Main.storyboard */,
 				3B1B74AE1EF8044A0039E7F3 /* Assets.xcassets */,
 				3B1B74B01EF8044A0039E7F3 /* LaunchScreen.storyboard */,
 				3B1B74B31EF8044A0039E7F3 /* Info.plist */,
 			);
 			path = SJFeedBack;
+			sourceTree = "<group>";
+		};
+		3B1B74BB1EF8086E0039E7F3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3B1B74BC1EF808890039E7F3 /* SJTextView.swift */,
+				3BCE36F21EF8C26C003D4CF5 /* SJImagesView.swift */,
+				3B20B9521EFFF10C0013F612 /* PhotoButton.swift */,
+				3B20B9581EFFF49D0013F612 /* SelectImageView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		4F2DFBCA6EF5DA4D8270FFBC /* Pods */ = {
@@ -215,8 +255,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B20B9551EFFF2600013F612 /* String+extension.swift in Sources */,
+				3B20B95B1EFFF5210013F612 /* UIImage+extension.swift in Sources */,
+				3B144A441EFA09C7000F53B6 /* UIView+extension.swift in Sources */,
+				3B20B9571EFFF2BF0013F612 /* UIAlertController+extension.swift in Sources */,
+				3B1B74BD1EF808890039E7F3 /* SJTextView.swift in Sources */,
 				3B1B74AA1EF8044A0039E7F3 /* ViewController.swift in Sources */,
+				3B20B9531EFFF10C0013F612 /* PhotoButton.swift in Sources */,
+				3BCE36F31EF8C26C003D4CF5 /* SJImagesView.swift in Sources */,
 				3B1B74A81EF8044A0039E7F3 /* AppDelegate.swift in Sources */,
+				3B20B9591EFFF49D0013F612 /* SelectImageView.swift in Sources */,
 				3B1B74BA1EF804830039E7F3 /* SJFeedBackViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -385,6 +433,7 @@
 				3B1B74B81EF8044A0039E7F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
